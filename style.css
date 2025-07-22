@@ -11,6 +11,18 @@ body {
   scroll-behavior: smooth;
 }
 
+#darkToggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1000;
+  background: #f1f1f1;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 .dark-mode {
   background-color: #121212;
   color: #f1f1f1;

@@ -1,12 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
+  // Dark Mode
   const toggle = document.getElementById('darkToggle');
   toggle.addEventListener('click', () => {
     document.body.classList.toggle('dark-mode');
     toggle.textContent = document.body.classList.contains('dark-mode') ? '☀️ Light Mode' : '🌙 Dark Mode';
   });
-});
 
-document.addEventListener('DOMContentLoaded', () => {
+  // Modal Logic
   const triggers = document.querySelectorAll('.modal-trigger');
   const modals = document.querySelectorAll('.modal');
   const closes = document.querySelectorAll('.close');
