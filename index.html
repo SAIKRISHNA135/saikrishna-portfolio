@@ -4,6 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Saikrishna Merugu | SAP Commerce Developer</title>
+  <button id="darkToggle">🌙</button>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
@@ -16,14 +18,14 @@
   </header>
 
   <!-- About -->
-  <section class="container mt-5" id="about">
+  <section class="container mt-5" id="about"  data-aos="fade-up">
     <h2>About Me</h2>
     <p>
         SAP Commerce Cloud (Hybris) Developer with 4+ years of experience building scalable B2B eCommerce platforms using versions 1905–2205. Proven expertise in OCC REST APIs, backend optimization, and CI/CD automation. Adept at integrating third-party services like Adobe Analytics and CyberSource to enhance functionality. Strong command of Java, Spring MVC, MySQL, and Azure Cloud solutions. Certified in SAP Commerce Cloud Development and Microsoft Azure Fundamentals.
   </section>
 
   <!-- Skills -->
-  <section class="container mt-4" id="skills">
+  <section class="container mt-4" id="skills" data-aos="fade-up">
     <h2>Skills</h2>
     <ul>
       <li><strong>eCommerce Platforms:</strong> SAP Commerce Cloud (Hybris), SmartEdit, Backoffice, WCMS, HMC, HAC, OCC REST APIs.</li>
@@ -36,9 +38,9 @@
   </section>
 
   <!-- Experience -->
-  <section class="container mt-4" id="experience">
+  <section class="container mt-4" id="experience" data-aos="fade-up">
     <h2>Experience</h2>
-    <h5>Applied Industrial Technologies (09/2024 - 05/2025)</h5>
+   <h5><button class="modal-trigger btn btn-outline-dark" data-modal="modal1">Applied Industrial Technologies (09/2024 - 05/2025)</button></h5>
     <ul>
         <li>Contributed to ongoing development and maintenance of SAP Commerce Cloud (Hybris) version 2205 B2B eCommerce portals, supporting high-availability 24/7 operations and improving platform reliability.</li>
         <li>Assisted in deployment and validation of SAP Commerce Cloud environments, ensuring smooth CI/CD pipeline execution and reducing post-deployment defects by 15%.</li>
@@ -52,7 +54,7 @@
         
     </ul>
 
-    <h5>Capgemini (08/2020 - 08/2023)</h5>
+   <h5><button class="modal-trigger btn btn-outline-dark" data-modal="modal2">Capgemini (08/2020 - 08/2023)</button></h5>
     <ul>
         <li>Engineered and maintained scalable B2B eCommerce platforms using SAP Commerce (Hybris) versions 1905, 2105, and 2205, resulting in a 28% increase in site performance and supporting long-term digital modernization initiatives.</li>
         <li>Spearheaded the upgrade of SAP Commerce from version 2011 to 2205, improving system performance by 40%, enhancing cloud readiness, and ensuring zero downtime during deployment.</li>
@@ -68,7 +70,7 @@
         <li>Conducted peer code reviews, mentored junior developers, and documented architectural patterns, promoting clean code standards and improving team productivity and onboarding by 30%.</li>
         
     </ul>
-    <h5>TechnoVirt Solutions Pvt. Ltd. (08/2019 - 07/2025)</h5>
+    <h5><button class="modal-trigger btn btn-outline-dark" data-modal="modal1">Applied Industrial Technologies (09/2024 - 05/2025)</button></h5>
     <ul>
         <li>Assisted in the development of full-stack modules using Java, Spring MVC, and MySQL.</li>
         <li>Collaborated with a team to build REST APIs and integrate them with responsive UI components using Angular. </li>   
@@ -81,7 +83,7 @@
   </section>
 
   <!-- Certifications -->
-  <section class="container mt-4" id="certifications">
+  <section class="container mt-4" id="certifications" data-aos="fade-up">
     <h2>Certifications</h2>
     <ul>
       <li>SAP Certified Development Professional - Commerce Cloud 2205</li>
@@ -93,7 +95,7 @@
   </section>
 
   <!-- Contact -->
-  <section class="container mt-4 mb-5" id="contact">
+  <section class="container mt-4 mb-5" id="contact" data-aos="fade-up">
     <h2>Contact Me</h2>
     <p>Email: <a href="mailto:merugusaikrishna9346@gmail.com">merugusaikrishna9346@gmail.com</a></p>
     <p>Phone: +1 (484)-703-8916</p>
@@ -101,6 +103,38 @@
         saikrishna-merugu-516438199
         ]</a></p>
   </section>
-
+<script src="script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+<div id="modal1" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h4>Applied Industrial Technologies</h4>
+    <ul>
+      <li>Contributed to ongoing development and maintenance of SAP Commerce Cloud...</li>
+      <!-- Add full experience content -->
+    </ul>
+  </div>
+</div>
+<div id="modal2" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h4>Applied Industrial Technologies</h4>
+    <ul>
+      <li>Contributed to ongoing development and maintenance of SAP Commerce Cloud...</li>
+      <!-- Add full experience content -->
+    </ul>
+  </div>
+</div>
+<div id="modal3" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h4>Applied Industrial Technologies</h4>
+    <ul>
+      <li>Contributed to ongoing development and maintenance of SAP Commerce Cloud...</li>
+      <!-- Add full experience content -->
+    </ul>
+  </div>
+</div>
 </body>
 </html>
